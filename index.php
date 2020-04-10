@@ -2,9 +2,17 @@
 <html lang="fr">
 
 <head>
+    <!-- META -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV Yann</title>
+    <meta name="author" content="Yann Nicolle">
+    <meta name="description" content="Développeur web en recherche d'un poste sur la région Nantaise .passionné par le dévellopement, curieux ">
+    <meta name="Keywords" content="Yann Nicolle développeur, développeur web, web, CV, site CV, site, application, application web, html5, css3, jquery, php, angular, ReactJs, Symfony, Bases de données, Mysql,veille technologique, expérience, javaScript ">
+    <meta name="robots" content="index,follow" />
+    <meta name="Revisit-After" content="15 days">
+    <meta name="Rating" content="general">  
+    <meta name="Distribution" content="global">
+    <title>Yann Nicolle - Développeur web</title>
     <!-- fontawesome icons -->
     <!-- <link rel="stylesheet" href="fontawesome-free-5.12.0-web/css/all.css"> -->
 
@@ -26,6 +34,7 @@
     <link href="https://fonts.googleapis.com/css?family=Cookie&display=swap" rel="stylesheet">
 
     <link href="fontawesome-free-5.12.1-web/css/all.min.css" rel="stylesheet">
+    <link rel="icon" href="images/logo-yann.png" sizes="16x16 32x32" type="image/png"> 
     <!--load all styles -->
     <link rel="stylesheet" href="css/style.css">
     <script src="js/jquery-3.4.1.min.js"></script>
@@ -73,6 +82,7 @@
                     </p>
 
                 </div>
+            
                 <div class="col-sm-4  apropos-picture">
                     <img src="images/photo-cv2.jpg" alt="Photo-id-yann" class="rounded-circle">
                 </div>
@@ -561,7 +571,7 @@
                 <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
                     <!--Featured image-->
                     <div class="view ">
-                        <a href="http://php/UDEMY/Agence-de-voyage/" target="_blank">
+                        <a href="http://voyage.yannicolle.fr/" target="_blank">
                             <span class="title">Travel Agency</span>
                             <img src="images/projet-boostrap-2.png" class="img-fluid" alt="Projet wordpress">
                             <span class="bgk"></span>
@@ -572,10 +582,10 @@
                         <h4 class="font-weight-bold my-3">Travel Agency</h4>
                         <div class="spacer" data-type="group">
                             <span class="trait-before"></span>
-                            <i class="fab fa-bootstrap"></i>
+                            <i class="fab fa-css3-alt"></i>
                             <span class="trait-after"></span>
                         </div>
-                        <p class="grey-text">Bootstrap</p>
+                        <p class="grey-text">CSS</p>
 
                     </div>
                 </div>
@@ -585,7 +595,7 @@
                 <div class="col-lg-4 col-md-6 mb-md-0 mb-4">
                     <!--Featured image-->
                     <div class="view overlay rounded z-depth-1">
-                        <a href="http://php/UDEMY/projet-jquery/" target="_blank">
+                        <a href="http://projetjquery.yannicolle.fr/" target="_blank">
                             <span class="title">Projet Jquery</span>
                             <img src="images/projet-jquery.png"" class=" img-fluid" alt="Projet jquery">
                             <span class="bgk"></span>
@@ -610,7 +620,7 @@
                 <div class="col-lg-4 col-md-6">
                     <!--Featured image-->
                     <div class="view overlay rounded z-depth-1">
-                        <a href="http://php/UDEMY/portfolio-jeux/" target="_blank">
+                        <a href="http://jeuxjs.yannicolle.fr/" target="_blank">
                             <span class="title">jeux JS</span>
                             <img src="images/jeux-JS.png" class="img-fluid" alt="Sample project image">
                             <span class="bgk"></span>
@@ -653,7 +663,7 @@
                     <div class="wrapper-coord">
                         <p><i class="fas fa-map-marker-alt"></i>Sainte Luce sur Loire - France</p>
                         <p><i class="fas fa-mobile-alt"></i> 06 73 80 65 27</p>
-                        <p><i class="far fa-envelope"></i><a href="mailto:yann.nicolle@orange.fr<">yann.nicolle@orange.fr</a></p>
+                        <p><i class="far fa-envelope"></i><a href="mailto:yann.nicolle@orange.fr">yann.nicolle@orange.fr</a></p>
                         <p></p>
 
                     </div>
