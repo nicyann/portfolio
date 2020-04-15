@@ -1,4 +1,8 @@
 <nav class="navbar fixed-top navbar-expand-md navbar-dark sticky-top ">
+    <a href="https://yannicolle.fr" target="_blank">
+    <img class="logo" src="./images/logoAI.png" alt="logo site">
+
+</a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Basculer la navigation">
         <span class="navbar-toggler-icon"></span>

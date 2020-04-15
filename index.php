@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Yann Nicolle">
     <meta name="description" content="Développeur web en recherche d'un poste sur la région Nantaise .passionné par le dévellopement, curieux ">
-    <meta name="Keywords" content="Yann Nicolle développeur, développeur web, web, CV, site CV, site, application, application web, html5, css3, jquery, php, angular, ReactJs, Symfony, Bases de données, Mysql,veille technologique, expérience, javaScript ">
+    <meta name="Keywords" content="x² ">
     <meta name="robots" content="index,follow" />
     <meta name="Revisit-After" content="15 days">
     <meta name="Rating" content="general">  
@@ -34,7 +34,7 @@
     <link href="https://fonts.googleapis.com/css?family=Cookie&display=swap" rel="stylesheet">
 
     <link href="fontawesome-free-5.12.1-web/css/all.min.css" rel="stylesheet">
-    <link rel="icon" href="images/logo-yann.png" sizes="16x16 32x32" type="image/png"> 
+    <link rel="icon" href="images/logoAI.png" sizes="" type="image/svg"> 
     <!--load all styles -->
     <link rel="stylesheet" href="css/style.css">
     <script src="js/jquery-3.4.1.min.js"></script>
@@ -663,7 +663,9 @@
                     <div class="wrapper-coord">
                         <p><i class="fas fa-map-marker-alt"></i>Sainte Luce sur Loire - France</p>
                         <p><i class="fas fa-mobile-alt"></i> 06 73 80 65 27</p>
-                        <p><i class="far fa-envelope"></i><a href="mailto:yann.nicolle@orange.fr">yann.nicolle@orange.fr</a></p>
+                        <p><i class="far fa-envelope"></i><a href="mailto:yann.nicolle@orange.fr">yann.nicolle@orange.fr</a></p>       
+                        <p><i class="fab fa-linkedin-in"></i><a href="https://linkedin.com/in/yannncl/" target="_blank" >Linkedin</a></p>
+                        <p><i class="fab fa-github"></i><a href="https://github.com/nicyann" target ="_blank">Github</a></p>
                         <p></p>
 
                     </div>
