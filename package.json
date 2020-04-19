@@ -1,0 +1,25 @@
+{
+  "name": "portfolio-en-ligne",
+  "version": "1.0.0",
+  "description": "mon site web portfolio et cv",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicyann/portfolio.git"
+  },
+  "author": "Yann Nicolle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicyann/portfolio/issues"
+  },
+  "homepage": "https://github.com/nicyann/portfolio#readme",
+  "dependencies": {
+    "aos": "^2.3.4"
+  }
+}

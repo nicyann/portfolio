@@ -89,6 +89,7 @@ section .heading h2 {
 }
 
 .button1:hover {
+    background: #2ebae3;
     color: #0b0b0b;
     text-decoration: none;
 }
@@ -378,6 +379,12 @@ section .heading h2 {
 
 #skills ul {
     list-style-type: circle;
+}
+
+@media (max-width:664px) {
+    #skills ul {
+        padding-left: 10px;
+    }
 }
 
 
@@ -697,6 +704,7 @@ section .heading h2 {
 
 .education-block h5 {
     color: #888;
+    font-weight: bold;
     font-size: 15px;
     margin-bottom: 15px;
 
@@ -709,6 +717,22 @@ section .heading h2 {
 .education-block h3 {
     color: #fff;
     margin-bottom: 20px;
+}
+
+.education-block a h3:hover {
+
+    font-size: 2em;
+    text-shadow: 3px 3px #888;
+    border-radius: 5px;
+
+
+}
+
+.education-block a:hover {
+
+    text-decoration: none;
+
+
 }
 
 .education-block h4 {
@@ -742,7 +766,26 @@ section .heading h2 {
 }
 
 .education-block h5 {
-    font-size: 1.5em;
+    font-size: 1.7em;
+}
+
+.education-block .button {
+    color: #fff;
+    border: 1px solid #888;
+    background: #ccc;
+    display: inline-block;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px auto;
+    font-weight: bold;
+}
+
+.education-block .button:hover {
+
+    animation-duration: 1s;
+    animation-name: flash;
+    animation-iteration-count: infinite;
 }
 
 @media (max-width: 664px) {
@@ -921,7 +964,7 @@ span.title {
 #contact .formcenter {
     margin: 0 auto;
     padding-left: 100px;
-    
+
 }
 
 
@@ -1030,6 +1073,12 @@ span.title {
     background: #04acdf;
 }
 
+@media (max-width: 664px) {
+
+    .mesCoordonnees {
+        margin: 0 80px;
+    }
+}
 
 /* FOOTER */
 footer {
@@ -1118,6 +1167,7 @@ footer h5 {
     footer ul li i {
         margin-left: 0;
     }
+
     footer ul {
         padding: 0;
     }
@@ -1126,6 +1176,6 @@ footer h5 {
         margin-top: 50px;
     }
 
-   
+
 
 }

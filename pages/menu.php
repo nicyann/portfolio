@@ -13,25 +13,25 @@
             <div class="nav navbar">
                 <ul class="nav navbar-nav">
                     <li class="nav-item ">
-                        <a class="nav-link" href="#about">Home</a>
+                        <a class="nav-link" href="https://yannicolle.fr/#about">Home</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" href="#apropos">Présentation</a>
+                        <a class="nav-link" href="https://yannicolle.fr/#apropos">Présentation</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" href="#skills">Compétences</a>
+                        <a class="nav-link" href="https://yannicolle.fr/#skills">Compétences</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" href="#experience">Expérience</a>
+                        <a class="nav-link" href="https://yannicolle.fr/#experience">Expérience</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" href="#education">Education</a>
+                        <a class="nav-link" href="https://yannicolle.fr/#education">Education</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" href="#portfolio">Réalisations</a>
+                        <a class="nav-link" href="https://yannicolle.fr/#portfolio">Réalisations</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" href="#contact">CONTACT</a>
+                        <a class="nav-link" href="https://yannicolle.fr/#contact">CONTACT</a>
                     </li>
                 </ul>
             </div>

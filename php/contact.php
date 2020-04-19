@@ -1,5 +1,5 @@
 <?php
-
+    $test ="";
     $array = array("firstname" => "", "name" => "", "email" => "", "phone" => "", "message" => "", "firstnameError" => "", "nameError" => "", "emailError" => "", "phoneError" => "", "messageError" => "", "isSuccess" => false);
     $emailTo = "yann.nicolle@orange.fr";
 
@@ -66,7 +66,7 @@
         if($array["isSuccess"]) 
         {
             $headers="From: {$array['firstname']} {$array['name']} <{$array['email']}>\r\Reply-To: {$array['email']}";
-            // mail($emailTo, "Un message de votre site", $emailText, $headers);
+            mail($emailTo, "Un message de votre site", $emailText, $headers);
         }
         
         echo json_encode($array);

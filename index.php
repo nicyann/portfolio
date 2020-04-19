@@ -1,3 +1,6 @@
+<?php
+ require "php/contact.php"; ?>
+
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -10,7 +13,7 @@
     <meta name="Keywords" content="x² ">
     <meta name="robots" content="index,follow" />
     <meta name="Revisit-After" content="15 days">
-    <meta name="Rating" content="general">  
+    <meta name="Rating" content="general">
     <meta name="Distribution" content="global">
     <title>Yann Nicolle - Développeur web</title>
     <!-- fontawesome icons -->
@@ -34,12 +37,18 @@
     <link href="https://fonts.googleapis.com/css?family=Cookie&display=swap" rel="stylesheet">
 
     <link href="fontawesome-free-5.12.1-web/css/all.min.css" rel="stylesheet">
-    <link rel="icon" href="images/logoAI.png" sizes="" type="image/svg"> 
+    <link rel="icon" href="images/logoAI.png" sizes="" type="image/svg">
     <!--load all styles -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- animation -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- animation AOS-->
+
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/script.js"></script>
 
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 
@@ -47,27 +56,27 @@
 
     <?php include("./pages/menu.php"); ?>
 
-    <section id="about" class="container-fluid ">
-        <h1>Développeur Web</h1>
+    <section id="about" class="container-fluid">
+        <h1 class=" animated bounce ">Développeur Web</h1>
 
         <div class=" heading">
             <h3>Yann Nicolle </h3>
-            <a href="docs/CV-Yann_Nicolle-03-02-2020.pdf" class="button1">Télécharger CV</a>
+            <a href="docs/CV-Yann_Nicolle-16-04-2020-.pdf" class="button1">Télécharger &nbsp;&nbsp; CV</a>
         </div>
-        
+
     </section>
     <!---------------------------- Section A propos --------------------------->
     <section id="apropos">
         <div class="container">
-            <div class="blue-divider"></div>
-            <div class="heading">
+            <div class="blue-divider "></div>
+            <div class="heading " >
                 <h2>présentation</h2>
 
             </div>
             <div class="row ">
-                <div class="col-sm-8 text-presentation">
-                    <p>
-                        <span>Bonjour</span>, &nbsp;je vous souhaite la bienvenue dans mon portfolio !<br>
+                <div class="col-sm-8 text-presentation" data-aos="zoom-in-up">
+                    <p> 
+                        <span>Bonjour</span>, &nbsp;je vous souh data-aos="fade-down-right"ite la bienvenue dans mon portfolio !<br>
                         je m'appelle <span>Yann Nicolle</span> et je suis développeur web.&nbsp;
                         Après 17 ans dans le domaine informatique,&nbsp; j'ai souhaité donner un second souffle à ma
                         carrière.&nbsp; Attiré par le développement informatique, &nbsp; j'ai décidé de suivre une
@@ -82,8 +91,8 @@
                     </p>
 
                 </div>
-            
-                <div class="col-sm-4  apropos-picture">
+
+                <div class="col-sm-4  apropos-picture" data-aos="zoom-in-up">
                     <img src="images/photo-cv2.jpg" alt="Photo-id-yann" class="rounded-circle">
                 </div>
             </div>
@@ -212,24 +221,24 @@
                             </div>
                             <div class="bar">
                                 <div class="percentage anglais">
-                                    <h6> A2 &nbsp;&nbsp;37%  </h6>
+                                    <h6> A2 &nbsp;&nbsp;37% </h6>
                                 </div>
                             </div>
-                        <div class="language">
+                            <div class="language">
 
-                            <div class="title">
-                                <div class="llemand">ALLEMAND</div>
-                            </div>
-                            <div class="bar">
-                                <div class="percentage allemand">
-                                    <h6>A2 &nbsp;&nbsp;30% </h6>
+                                <div class="title">
+                                    <div class="llemand">ALLEMAND</div>
+                                </div>
+                                <div class="bar">
+                                    <div class="percentage allemand">
+                                        <h6>A2 &nbsp;&nbsp;30% </h6>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
     </section>
     <!---------------------------- Section Expériences--------------------------->
     <section id="experience">
@@ -407,20 +416,22 @@
                     <div class="education-block">
                         <h5>2019</h5>
                         <span><i class="fas fa-user-graduate"></i></span>
-                        <h3>Digital Campus Rennes</h3>
+                        <a href="https://www.digital-campus.fr/formation/developpement-web" target="_blank">
+                            <h3>Digital Campus Rennes</h3>
+                        </a>
                         <h4>Développeur web digital </h4>
                         <div class="blue-divider"></div>
                         <div class="educationDescription">
                             <ul>
                                 <li>Bases du web : HTML, CSS (Sass, Less, Bootstrap).</li>
-                                <liBases du développement : Algorithmie, bases de données, SQL, Git.</p>
-                                <li>PHP : PHP orienté objet / PDO -MySQL, Framework Symfony./PHP</li>
-                                <li>JavaScript / ReactJS : jQuery, API, AJAX</li>
-                                <li>Application mobile : NodeJS, MongoDB, ExpressJS, React Native</li>
-                                <li>Gestion de projet, webmarketing, référencement.</l>
+                                <liBases du développement : Algorithmie, bases de données, SQL, Git.</p> <li>PHP : PHP orienté objet / PDO -MySQL, Framework Symfony./PHP</li>
+                                    <li>JavaScript / ReactJS : jQuery, API, AJAX</li>
+                                    <li>Application mobile : NodeJS, MongoDB, ExpressJS, React Native</li>
+                                    <li>Gestion de projet, webmarketing, référencement.</l>
                             </ul>
                         </div>
-                        </div>
+                        <a href="https://www.digital-campus.fr/formation/developpement-web" target="_blank" class="button">Plus d'infos</a>
+                    </div>
                 </div>
                 <div class="col-sm-6 education">
                     <div class="education-block">
@@ -433,13 +444,13 @@
                         <div class="educationDescription">
                             <ul>
                                 <li>Administration système et réseau , Infrastructure
-                            réseaux TCP/IP</li>
+                                    réseaux TCP/IP</li>
                                 <li>Gestion base de données et requêtes</li>
                                 <li>Gestion incidents et problèmes installations et configurations de
-                            postes. </li>
+                                    postes. </li>
                                 <li>Stage de fin de formation de 3 mois - support utilisateur et gestion du réseau </li>
                             </ul>
-                        </div> 
+                        </div>
                     </div>
                 </div>
 
@@ -494,7 +505,7 @@
                 <!-- Grid column -->
                 <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
                     <!--Featured image-->
-                    <div class="view ">
+                    <div class="view " data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <a href="./pages/projet-realhome.php" target="_blank">
                             <span class="title">Realhome</span>
                             <img src="images/screenshot-realhome3.jpg" class="img-fluid" alt="Projet wordpress">
@@ -518,7 +529,7 @@
                 <!-- Grid column -->
                 <div class="col-lg-4 col-md-6 mb-md-0 mb-4">
                     <!--Featured image-->
-                    <div class="view overlay rounded z-depth-1">
+                    <div class="view overlay rounded z-depth-1"data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <a href="./pages/projet-trouave.php" target="_blank">
                             <span class="title">Trouavé</span>
                             <img src="images/Screenshot-trouave.png"" class=" img-fluid" alt="Projet en php symfony">
@@ -543,7 +554,7 @@
                 <!-- Grid column -->
                 <div class="col-lg-4 col-md-6">
                     <!--Featured image-->
-                    <div class="view overlay rounded z-depth-1">
+                    <div class="view overlay rounded z-depth-1" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <a href="./pages/sharesamis.php" target="_blank">
                             <span class="title">Sharesamis</span>
                             <img src="images/sharesamis-projet.png" class="img-fluid" alt="Sample project image">
@@ -570,7 +581,7 @@
                 <!-- Grid column -->
                 <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
                     <!--Featured image-->
-                    <div class="view ">
+                    <div class="view "data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <a href="http://voyage.yannicolle.fr/" target="_blank">
                             <span class="title">Travel Agency</span>
                             <img src="images/projet-boostrap-2.png" class="img-fluid" alt="Projet wordpress">
@@ -594,7 +605,7 @@
                 <!-- Grid column -->
                 <div class="col-lg-4 col-md-6 mb-md-0 mb-4">
                     <!--Featured image-->
-                    <div class="view overlay rounded z-depth-1">
+                    <div class="view overlay rounded z-depth-1"data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <a href="http://projetjquery.yannicolle.fr/" target="_blank">
                             <span class="title">Projet Jquery</span>
                             <img src="images/projet-jquery.png"" class=" img-fluid" alt="Projet jquery">
@@ -619,7 +630,7 @@
                 <!-- Grid column -->
                 <div class="col-lg-4 col-md-6">
                     <!--Featured image-->
-                    <div class="view overlay rounded z-depth-1">
+                    <div class="view overlay rounded z-depth-1" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <a href="http://jeuxjs.yannicolle.fr/" target="_blank">
                             <span class="title">jeux JS</span>
                             <img src="images/jeux-JS.png" class="img-fluid" alt="Sample project image">
@@ -656,16 +667,16 @@
             </div>
 
             <div class="row">
-                <div class="col-lg-4 col-lg-offset-1">
+                <div class="col-lg-4 col-lg-offset-1 mesCoordonnees">
 
                     <h4>Mes coordonnées</h4>
 
                     <div class="wrapper-coord">
                         <p><i class="fas fa-map-marker-alt"></i>Sainte Luce sur Loire - France</p>
                         <p><i class="fas fa-mobile-alt"></i> 06 73 80 65 27</p>
-                        <p><i class="far fa-envelope"></i><a href="mailto:yann.nicolle@orange.fr">yann.nicolle@orange.fr</a></p>       
-                        <p><i class="fab fa-linkedin-in"></i><a href="https://linkedin.com/in/yannncl/" target="_blank" >Linkedin</a></p>
-                        <p><i class="fab fa-github"></i><a href="https://github.com/nicyann" target ="_blank">Github</a></p>
+                        <p><i class="far fa-envelope"></i><a href="mailto:yann.nicolle@orange.fr">yann.nicolle@orange.fr</a></p>
+                        <p><i class="fab fa-linkedin-in"></i><a href="https://linkedin.com/in/yannncl/" target="_blank">Linkedin</a></p>
+                        <p><i class="fab fa-github"></i><a href="https://github.com/nicyann" target="_blank">Github</a></p>
                         <p></p>
 
                     </div>
@@ -673,11 +684,11 @@
                 </div>
                 <div class="col-lg-8 col-lg-offset-1 formcenter">
                     <h4>Laissez moi un message</h4>
-                    <form id="contact-form" method="post" action="" role="form">
+                    <form id="contact-form" method="post" action="php/contact.php" role="form">
                         <div class="row">
                             <div class="col-md-6">
                                 <label for="firstname">Prénom <span>*</span></label>
-                                <input id="firstname" type="text" name="firstname" class="form-control" placeholder="Votre prénom">
+                                <input id="firstname" type="text" name="firstname" class="form-control" placeholder="Votre prénom" value="<?php echo $array["firstname"];?>">
                                 <p class="comments"></p>
                             </div>
                             <div class="col-md-6">
@@ -718,7 +729,10 @@
     <!---------------------------- Section Footer --------------------------->
 
     <?php include("./pages/footer.php"); ?>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
