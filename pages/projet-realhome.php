@@ -32,7 +32,7 @@
 
 <body data-spy="scroll" data-target=".navbar" data-offset="60">
 
-<?php include("./menu.php"); ?>
+<?php include("./menu2.php"); ?>
 
 
 

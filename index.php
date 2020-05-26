@@ -53,8 +53,10 @@
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="60">
-
+    
     <?php include("./pages/menu.php"); ?>
+
+
 
     <section id="about" class="container-fluid">
         <h1 class=" animated bounce ">Développeur Web</h1>
@@ -76,7 +78,7 @@
             <div class="row ">
                 <div class="col-sm-8 text-presentation" data-aos="zoom-in-up">
                     <p> 
-                        <span>Bonjour</span>, &nbsp;je vous souh data-aos="fade-down-right"ite la bienvenue dans mon portfolio !<br>
+                        <span>Bonjour</span>, &nbsp;bienvenue dans mon portfolio !<br>
                         je m'appelle <span>Yann Nicolle</span> et je suis développeur web.&nbsp;
                         Après 17 ans dans le domaine informatique,&nbsp; j'ai souhaité donner un second souffle à ma
                         carrière.&nbsp; Attiré par le développement informatique, &nbsp; j'ai décidé de suivre une
@@ -193,6 +195,8 @@
                             <li>NodeJS</li>
                             <li>Webpack</li>
                             <li>npm</li>
+                            <li>Json</li>
+
 
                         </ul>
                     </div>
@@ -249,7 +253,7 @@
             <div class="heading">
                 <h2>Expériences professionnelles</h2>
             </div>
-            <ul class="timeline">
+            <ul class="timeline" data-aos="fade-up"  data-aos-anchor-placement="top-bottom">
                 <li>
                     <div class="timeline-badge"><span><i class="fa fa-briefcase"></i></span></div>
                     <div class="timeline-panel-container ">
@@ -686,34 +690,34 @@
                     <h4>Laissez moi un message</h4>
                     <form id="contact-form" method="post" action="php/contact.php" role="form">
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-md-6 formWrapper" >
                                 <label for="firstname">Prénom <span>*</span></label>
                                 <input id="firstname" type="text" name="firstname" class="form-control" placeholder="Votre prénom" value="<?php echo $array["firstname"];?>">
                                 <p class="comments"></p>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6 formWrapper" >
                                 <label for="name">Nom <span>*</span></label>
-                                <input id="name" type="text" name="name" class="form-control" placeholder="Votre Nom">
+                                <input id="name" type="text" nrame="name" class="form-control" placeholder="Votre Nom">
                                 <p class="comments"></p>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6 formWrapper">
                                 <label for="email">Email <span>*</span></label>
                                 <input id="email" type="text" name="email" class="form-control" placeholder="Votre Email">
                                 <p class="comments"></p>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6 formWrapper">
                                 <label for="phone">Téléphone<span>*</span></label>
                                 <input id="phone" type="tel" name="phone" class="form-control" placeholder="Votre Téléphone">
                                 <p class="comments"></p>
                             </div>
-                            <div class="col-md-12">
+                            <div class="col-md-12 messageWrapper">
                                 <label for="message">Message <span>*</span></label>
                                 <textarea id="message" name="message" class="form-control" placeholder="Votre Message" rows="4"></textarea>
                                 <p class="comments"></p>
                             </div>
-                            <div class="col-md-12">
+                            <div class="col-md-12 infos">
                                 <p><strong>* Ces informations sont requises.</strong></p>
-                            </div>
+                            </div> 
                             <div class="col-md-12">
                                 <input type="submit" class="button1" value="Envoyer">
                             </div>

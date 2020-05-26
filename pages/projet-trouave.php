@@ -32,15 +32,15 @@
 
 <body data-spy="scroll" data-target=".navbar" data-offset="60">
 
-<?php include("./menu.php"); ?>
+<?php include("./menu2.php"); ?>
 
 
 
     <section id="prrojetrealhome">
         <div class="headerTitle">
             <div class="wrapper">
-                <h2>Share's Amis</h2>
-                <p><span>Formation - Projet fin d'étude </span>  Application web</p>
+                <h2>Trouavé</h2>
+                <p><span>Formation - Evaluation module PHP/symfony</span>  Application web</p>
                 <p class="titelDesctiption"></p>
             </div>
         </div>

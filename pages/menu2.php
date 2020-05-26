@@ -13,25 +13,25 @@
         <div class="nav navbar">
             <ul class="nav navbar-nav">
                 <li class="nav-item ">
-                    <a class="nav-link" href="#about">Home</a>
+                    <a class="nav-link" href="http://php/UDEMY/portfolio-en-ligne/#about">Home</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="#apropos">Présentation</a>
+                    <a class="nav-link" href="http://php/UDEMY/portfolio-en-ligne/#apropos">Présentation</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="#skills">Compétences</a>
+                    <a class="nav-link" href="http://php/UDEMY/portfolio-en-ligne//#skills">Compétences</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="#experience">Expérience</a>
+                    <a class="nav-link" href="hhttp://php/UDEMY/portfolio-en-ligne/#experience">Expérience</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="#education">Education</a>
+                    <a class="nav-link" href="http://php/UDEMY/portfolio-en-ligne//#education">Education</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="#portfolio">Réalisations</a>
+                    <a class="nav-link" href="http://php/UDEMY/portfolio-en-ligne//#portfolio">Réalisations</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="#contact">CONTACT</a>
+                    <a class="nav-link" href="https://yannicolle.fr/#contact">CONTACT</a>
                 </li>
             </ul>
         </div>

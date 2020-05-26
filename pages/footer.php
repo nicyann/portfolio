@@ -13,8 +13,8 @@
     <div class="footerLiens">
         <h5>Où me trouver</h5>
         <ul>
-            <li><i class="fab fa-linkedin-in"></i><a href="https://linkedin.com/in/yannncl/" target="_blank">Linkedin</a></li>
-            <li><i class="fab fa-github"></i><a href="https://github.com/nicyann" target="_blank">Github</a></li>
+            <li><a href="https://linkedin.com/in/yannncl/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="https://github.com/nicyann" target="_blank"><i class="fab fa-github"></i></a></li>
         </ul>
     </div>
 

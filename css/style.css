@@ -124,9 +124,9 @@ section .heading h2 {
     text-align: center;
 }
 
-.navbar li a {
-    color: #fff !important;
-}
+/* .navbar li a {
+    color: #fff ;
+} */
 
 .navbar li a:hover {
     color: #04acdf !important;
@@ -784,12 +784,16 @@ section .heading h2 {
 .education-block .button:hover {
 
     animation-duration: 1s;
-    animation-name: flash;
+    animation-name: pulse;
     animation-iteration-count: infinite;
 }
 
 @media (max-width: 664px) {
 
+
+    .education-block{
+        width:100%;
+    }
 
     .timeline:before {
         background: green;
@@ -995,14 +999,14 @@ span.title {
 }
 
 #contact-form {
-    font-size: 20px;
+    font-size: 18px;
 
 }
 
 #contact .wrapper-coord p {
 
     font-size: 1.2em;
-    line-height: 2.5em;
+    line-height: 1.7em;
 }
 
 #contact i {
@@ -1047,11 +1051,11 @@ span.title {
     font-style: italic;
     font-size: 16px;
     color: #d82c2e;
-    height: 25px;
+  
 }
 
 #contact-form input[type=submit] {
-    margin: 40px auto 0px;
+    margin: 0 auto ;
     display: block;
 }
 
@@ -1061,6 +1065,26 @@ span.title {
     font-weight: bold;
     font-size: 22px;
 }
+
+.formWrapper
+
+{
+    padding: 5px;
+    height: 100px;
+}
+.messageWrapper
+
+{
+    padding: 5px;
+    height: 160px;
+}
+
+#contact-form .infos
+{
+    font-size: 14px;
+}
+
+
 
 #contact .button1 {
     color: #fff;
@@ -1076,8 +1100,16 @@ span.title {
 @media (max-width: 664px) {
 
     .mesCoordonnees {
-        margin: 0 80px;
+        margin: 0 50px;
     }
+    #contact .formcenter {
+        margin: 0 20px;
+        padding-left: 0px;
+    }
+ 
+
+    
+
 }
 
 /* FOOTER */
@@ -1112,6 +1144,8 @@ footer i {
 
 footer ul {
     padding: 20px 0 0 0;
+    display: flex;
+    justify-content: start;
 }
 
 footer i:hover {
@@ -1170,6 +1204,9 @@ footer h5 {
 
     footer ul {
         padding: 0;
+        justify-content: center;
+        padding-left: 20px;
+
     }
 
     #contact .formcenter {
