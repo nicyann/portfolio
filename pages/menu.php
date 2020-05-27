@@ -13,10 +13,10 @@
         <div class="nav navbar">
             <ul class="nav navbar-nav">
                 <li class="nav-item ">
-                    <a class="nav-link" href="#about">Home</a>
+                    <a class=" nav-link "  href="#about">Home</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="#apropos">Présentation</a>
+                    <a class="nav-link " href="#apropos">Présentation</a>
                 </li>
                 <li class="nav-item ">
                     <a class="nav-link" href="#skills">Compétences</a>

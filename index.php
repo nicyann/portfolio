@@ -39,14 +39,14 @@
     <link href="fontawesome-free-5.12.1-web/css/all.min.css" rel="stylesheet">
     <link rel="icon" href="images/logoAI.png" sizes="" type="image/svg">
     <!--load all styles -->
-    <link rel="stylesheet" href="css/style.css">
     <!-- animation -->
     <link rel="stylesheet" href="css/animate.css">
-    <!-- animation AOS-->
-
+    <link rel="stylesheet" href="css/style.css">
+    
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/script.js"></script>
-
+    
+    <!-- animation AOS-->
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
