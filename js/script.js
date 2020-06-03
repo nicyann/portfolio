@@ -96,6 +96,13 @@ $(function(){
     $(".view a").mouseover(function(){
         $(this).find('span.bgk').hide().stop().fadeTo(500,0.7);
         $(this).find('span.title').hide().stop().fadeTo(500,0.7);
+        $(this).find('span.project').hide().stop().fadeTo(500,0.1);
+        
+    });
+    $(".right-wrapper .view a").mouseover(function(){
+        $(this).find('span.bgk').hide().stop().fadeTo(500,0.9);
+        $(this).find('span.title').hide().stop().fadeTo(500,0.9);
+     
         
     });
 

@@ -26,8 +26,8 @@
     <link href="../fontawesome-free-5.12.1-web/css/all.min.css" rel="stylesheet">
     <!--load all styles -->
     <link rel="stylesheet" href="../css/style.css">
-    <!-- <script src="../js/jquery-3.4.1.min.js"></script>
-    <script src="../js/script.js"></script> -->
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../js/script.js"></script>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -59,7 +59,14 @@
 
                 </div>
                 <div class="col-lg-6 text-center right-wrapper">
-                    <img src="../images/realhome-logo.png" alt="site realhome">
+                    <h6>Acceder au site</h6>
+                <div class="view " data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                        <a href="https://realhome.yannicolle.fr/" target="_blank">
+                            <span class=" title project  "><i class="fas fa-exclamation-triangle"></i>&nbsp; &nbsp; No responsive</span>
+                            <img src="../images/realhome-logo.png" alt="site realhome"class="img-fluid" >
+                            <span class="bgk"></span>
+                        </a>
+                    </div>
                 </div>
             </div>
 

@@ -67,6 +67,7 @@
         </div>
 
     </section>
+    
     <!---------------------------- Section A propos --------------------------->
     <section id="apropos">
         <div class="container">
