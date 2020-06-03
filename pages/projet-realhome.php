@@ -27,7 +27,7 @@
     <!--load all styles -->
     <link rel="stylesheet" href="../css/style.css">
     <script src="../js/jquery-3.4.1.min.js"></script>
-    <script src="../js/script.js"></script>
+    <script src="../js/script-realhome.js"></script>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -55,7 +55,7 @@
                     <p> RealHome est une agence immobilière. Cette agence possède des appartements sur Paris, Rennes Lyon ainsi que Bordeaux. Notre client souhaite un site vitrine contenant une page d'accueil, une page de contact, une page à propos, une page d'actualités ainsi que le détail de chaque actualité. Il souhaite également qu'on affiche ses propriétés ainsi que le détail de chacune d'entre elle.</p>
                     <h2>Outils et langages</h2>
                     <p>Wordpress. Visual studio code <br>
-                        HTML5 CSS3 PHP</p>
+                        HTML5, CSS3, PHP</p>
 
                 </div>
                 <div class="col-lg-6 text-center right-wrapper">

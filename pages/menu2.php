@@ -19,16 +19,16 @@
                     <a class="nav-link" href="http://php/UDEMY/portfolio-en-ligne/#apropos">Présentation</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="http://php/UDEMY/portfolio-en-ligne//#skills">Compétences</a>
+                    <a class="nav-link" href="http://php/UDEMY/portfolio-en-ligne/#skills">Compétences</a>
                 </li>
                 <li class="nav-item ">
                     <a class="nav-link" href="hhttp://php/UDEMY/portfolio-en-ligne/#experience">Expérience</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="http://php/UDEMY/portfolio-en-ligne//#education">Education</a>
+                    <a class="nav-link" href="http://php/UDEMY/portfolio-en-ligne/#education">Education</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="http://php/UDEMY/portfolio-en-ligne//#portfolio">Réalisations</a>
+                    <a class="nav-link" href="http://php/UDEMY/portfolio-en-ligne/#portfolio">Réalisations</a>
                 </li>
                 <li class="nav-item ">
                     <a class="nav-link" href="https://yannicolle.fr/#contact">CONTACT</a>
